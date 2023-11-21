@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+    <meta
+      name="description"
+      content=" Primi passi operativi per creare un modello di pagina HTML per un post . Scopri come iniziare in modo facile"
+    />
+    <style>
+      #title {
+        color: rgb(255, 0, 212);
+        display: inline-block;
+      }
+      body {
+        background-color: lightblue;
+      }
+
+      li {
+        margin: 50px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img id="image" src="./img/logo.svg" />
+      <h1 id="title">Epicode - il blog dei developers</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#"> Home </a></li>
+        <li><a href="#">Articoli</a></li>
+        <li><a href="#"> Lavora con noi</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>
+        come creare un template per i post di Mario Rossi - publicato 25-10-2020
+      </h1>
+      <p>
+        la prima cosa da fare è suddividere in blocchi la pagina , identificando
+        la parte comuni da applicare a tuttr le pagine
+        <br />
+        le varie area saranno quindi suddivise in :
+        <br />
+        . contenuti di intestazione del tag &lt; header &gt;
+        <br />
+        . contenuti centrali variabili del tag &lt; main &gt; (corpo principale)
+        <br />
+        . contenuti di fine pagina comuni , da inserire nel tag &lt;footer &gt;
+        <br />
+        <br />
+        Formattazione del codice <br />
+        <br />
+        <br />
+
+        il testo dell'articolo dovrà essere formatto per identificare le parte
+        da selezione con i css .Percio i passi saranno : <br />
+        1. progettare il markup assegnado ad ogni specifico testo il tag
+        appropriato
+        <br />
+        2. scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il
+        basso
+        <br />
+        3. Applicare gli css
+        <br />
+        <br />
+        L'applicazione di stili css è cresciuta negli anni fino a raggiungere la
+        diffusione pressochè totale .
+      </p>
+
+      <table border="solid">
+        <caption>
+          Diffusione dei css
+        </caption>
+        <tr>
+          <th>Anno</th>
+          <th>% di utilizzo</th>
+          <th>supporto browsers</th>
+        </tr>
+        <tr>
+          <td>2000</td>
+          <td>20%</td>
+          <td>17%</td>
+        </tr>
+        <tr>
+          <td>2002</td>
+          <td>35%</td>
+          <td>22%</td>
+        </tr>
+
+        <tr>
+          <td>2004</td>
+          <td>45%</td>
+          <td>42%</td>
+        </tr>
+        <tr>
+          <td>2008</td>
+          <td>80%</td>
+          <td>51%</td>
+        </tr>
+        <tr>
+          <td>2012</td>
+          <td>100%</td>
+          <td>76%</td>
+        </tr>
+      </table>
+      Un test di validazione potrà essere fatto tramite il tool online
+      <a href="#">link</a> dedicto allo scopo . una volta ottimizzato il tutti
+      avremo raggiunto il nostro obiettivo ed essere stati dei veri developers
+      come loro :
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/QiYgE7Hceks?si=0NKHLCqcLQpTtuTk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+
+      <p>
+        vuoi rimanere aggiornato su altre novita del blog ? iscriviti alla
+        nostra newsletter:
+      </p>
+
+      <form>
+        <label for="email">email: </label>
+        <input type="email" id="email" />
+
+        <button>iscrivite</button>
+      </form>
+    </main>
+    <footer>
+      <p>
+        Blog Epicode &copy; 2023 <br />
+        <br />
+        Testata online di mario rossi , registrata con prot n.213/2018-via luigi
+        einaudi 2 - milano P.IVA 00112233 <br />
+        info@epicode.school
+      </p>
+    </footer>
+  </body>
+</html>
